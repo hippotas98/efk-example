@@ -35,7 +35,7 @@ services:
     networks:
       - logging-net
     depends_on:
-      - elasticsearch    
+      - fluentd    
   
   nginx:
     image: nginx

@@ -58,3 +58,63 @@
 2019/09/22 04:56:56 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/nginx.conf:30
 2019/09/22 04:56:59 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/nginx.conf:30
 2019/09/22 04:57:01 [emerg] 1#1: unexpected end of file, expecting ";" or "}" in /etc/nginx/nginx.conf:30
+2019/09/24 01:17:21 [notice] 1#1: using the "epoll" event method
+2019/09/24 01:17:21 [notice] 1#1: nginx/1.17.3
+2019/09/24 01:17:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/09/24 01:17:21 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/09/24 01:17:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/09/24 01:17:21 [notice] 1#1: start worker processes
+2019/09/24 01:17:21 [notice] 1#1: start worker process 6
+2019/09/24 01:17:21 [notice] 1#1: start worker process 7
+2019/09/24 01:21:23 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/09/24 01:21:23 [notice] 6#6: exiting
+2019/09/24 01:21:23 [notice] 7#7: exiting
+2019/09/24 01:21:23 [notice] 6#6: exit
+2019/09/24 01:21:23 [notice] 7#7: exit
+2019/09/24 01:21:23 [notice] 1#1: signal 14 (SIGALRM) received
+2019/09/24 01:21:23 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/09/24 01:21:23 [notice] 1#1: worker process 6 exited with code 0
+2019/09/24 01:21:23 [notice] 1#1: worker process 7 exited with code 0
+2019/09/24 01:21:23 [notice] 1#1: exit
+2019/09/24 01:21:35 [notice] 1#1: using the "epoll" event method
+2019/09/24 01:21:35 [notice] 1#1: nginx/1.17.3
+2019/09/24 01:21:35 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/09/24 01:21:35 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/09/24 01:21:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/09/24 01:21:35 [notice] 1#1: start worker processes
+2019/09/24 01:21:35 [notice] 1#1: start worker process 6
+2019/09/24 01:21:35 [notice] 1#1: start worker process 7
+2019/09/24 01:25:04 [notice] 1#1: using the "epoll" event method
+2019/09/24 01:25:04 [notice] 1#1: nginx/1.17.3
+2019/09/24 01:25:04 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/09/24 01:25:04 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/09/24 01:25:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/09/24 01:25:04 [notice] 1#1: start worker processes
+2019/09/24 01:25:04 [notice] 1#1: start worker process 7
+2019/09/24 01:25:04 [notice] 1#1: start worker process 8
+2019/09/24 01:28:35 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/09/24 01:28:35 [notice] 7#7: exiting
+2019/09/24 01:28:35 [notice] 8#8: exiting
+2019/09/24 01:28:35 [notice] 7#7: exit
+2019/09/24 01:28:35 [notice] 8#8: exit
+2019/09/24 01:28:35 [notice] 1#1: signal 14 (SIGALRM) received
+2019/09/24 01:28:35 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/09/24 01:28:35 [notice] 1#1: worker process 7 exited with code 0
+2019/09/24 01:28:35 [notice] 1#1: worker process 8 exited with code 0
+2019/09/24 01:28:35 [notice] 1#1: exit
+2019/09/24 01:28:48 [notice] 1#1: using the "epoll" event method
+2019/09/24 01:28:48 [notice] 1#1: nginx/1.17.3
+2019/09/24 01:28:48 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/09/24 01:28:48 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/09/24 01:28:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/09/24 01:28:48 [notice] 1#1: start worker processes
+2019/09/24 01:28:48 [notice] 1#1: start worker process 6
+2019/09/24 01:28:48 [notice] 1#1: start worker process 7
+2019/09/24 01:31:25 [notice] 1#1: using the "epoll" event method
+2019/09/24 01:31:25 [notice] 1#1: nginx/1.17.3
+2019/09/24 01:31:25 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/09/24 01:31:25 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/09/24 01:31:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/09/24 01:31:25 [notice] 1#1: start worker processes
+2019/09/24 01:31:25 [notice] 1#1: start worker process 6
+2019/09/24 01:31:25 [notice] 1#1: start worker process 7
