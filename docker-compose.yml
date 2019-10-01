@@ -3,9 +3,9 @@ services:
   e-commerce:
     image: 'hippotas/e-commerce-1'
     ports:
-     - 3100
+     - 8081:8081
     environment:
-      - SERVICE_PORTS=3100
+      - SERVICE_PORTS=8081
     deploy:
       replicas: 1
       update_config:

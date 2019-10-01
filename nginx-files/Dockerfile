@@ -7,6 +7,7 @@ FROM node
 WORKDIR /app
 COPY package.json /app
 RUN npm install
+RUN npm audit fix
 COPY . /app
-EXPOSE 3100
+EXPOSE 8081
 CMD [ "npm", "start" ]
