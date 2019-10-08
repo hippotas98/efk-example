@@ -497,3 +497,1987 @@
 2019/10/01 02:23:21 [notice] 1#1: worker process 6 exited with code 0
 2019/10/01 02:23:21 [notice] 1#1: worker process 7 exited with code 0
 2019/10/01 02:23:21 [notice] 1#1: exit
+2019/10/01 03:10:43 [notice] 1#1: using the "epoll" event method
+2019/10/01 03:10:43 [notice] 1#1: nginx/1.17.3
+2019/10/01 03:10:43 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 03:10:43 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 03:10:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 03:10:43 [notice] 1#1: start worker processes
+2019/10/01 03:10:43 [notice] 1#1: start worker process 7
+2019/10/01 03:10:43 [notice] 1#1: start worker process 8
+2019/10/01 03:11:14 [error] 7#7: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/10/01 03:11:58 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 03:11:58 [notice] 8#8: exiting
+2019/10/01 03:11:58 [notice] 8#8: exit
+2019/10/01 03:11:58 [notice] 7#7: exiting
+2019/10/01 03:11:58 [notice] 7#7: exit
+2019/10/01 03:11:58 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:11:59 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/01 03:11:59 [notice] 1#1: worker process 8 exited with code 0
+2019/10/01 03:11:59 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 03:11:59 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 03:11:59 [notice] 1#1: exit
+2019/10/01 03:12:21 [notice] 1#1: using the "epoll" event method
+2019/10/01 03:12:21 [notice] 1#1: nginx/1.17.3
+2019/10/01 03:12:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 03:12:21 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 03:12:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 03:12:21 [notice] 1#1: start worker processes
+2019/10/01 03:12:21 [notice] 1#1: start worker process 8
+2019/10/01 03:12:21 [notice] 1#1: start worker process 9
+2019/10/01 03:15:34 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 03:15:34 [notice] 9#9: exiting
+2019/10/01 03:15:34 [notice] 9#9: exit
+2019/10/01 03:15:34 [notice] 8#8: exiting
+2019/10/01 03:15:34 [notice] 8#8: exit
+2019/10/01 03:15:34 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:15:34 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2019/10/01 03:15:34 [notice] 1#1: worker process 9 exited with code 0
+2019/10/01 03:15:34 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/01 03:15:34 [notice] 1#1: worker process 8 exited with code 0
+2019/10/01 03:15:34 [notice] 1#1: exit
+2019/10/01 03:18:14 [notice] 1#1: using the "epoll" event method
+2019/10/01 03:18:14 [notice] 1#1: nginx/1.17.3
+2019/10/01 03:18:14 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 03:18:14 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 03:18:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 03:18:14 [notice] 1#1: start worker processes
+2019/10/01 03:18:14 [notice] 1#1: start worker process 6
+2019/10/01 03:18:14 [notice] 1#1: start worker process 7
+2019/10/01 03:19:15 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 03:19:15 [notice] 7#7: exiting
+2019/10/01 03:19:15 [notice] 6#6: exiting
+2019/10/01 03:19:15 [notice] 7#7: exit
+2019/10/01 03:19:15 [notice] 6#6: exit
+2019/10/01 03:19:15 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:19:15 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 03:19:15 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 03:19:15 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 03:19:15 [notice] 1#1: exit
+2019/10/01 03:19:52 [notice] 1#1: using the "epoll" event method
+2019/10/01 03:19:52 [notice] 1#1: nginx/1.17.3
+2019/10/01 03:19:52 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 03:19:52 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 03:19:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 03:19:52 [notice] 1#1: start worker processes
+2019/10/01 03:19:52 [notice] 1#1: start worker process 6
+2019/10/01 03:19:52 [notice] 1#1: start worker process 7
+2019/10/01 03:25:07 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 03:25:07 [notice] 7#7: exiting
+2019/10/01 03:25:07 [notice] 6#6: exiting
+2019/10/01 03:25:07 [notice] 7#7: exit
+2019/10/01 03:25:07 [notice] 6#6: exit
+2019/10/01 03:25:07 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:25:07 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:25:07 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 03:25:07 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 03:25:07 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 03:25:07 [notice] 1#1: exit
+2019/10/01 03:28:21 [notice] 1#1: using the "epoll" event method
+2019/10/01 03:28:21 [notice] 1#1: nginx/1.17.3
+2019/10/01 03:28:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 03:28:21 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 03:28:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 03:28:21 [notice] 1#1: start worker processes
+2019/10/01 03:28:21 [notice] 1#1: start worker process 6
+2019/10/01 03:28:21 [notice] 1#1: start worker process 7
+2019/10/01 03:31:38 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 03:31:38 [notice] 6#6: exiting
+2019/10/01 03:31:38 [notice] 7#7: exiting
+2019/10/01 03:31:38 [notice] 6#6: exit
+2019/10/01 03:31:38 [notice] 7#7: exit
+2019/10/01 03:31:38 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:31:39 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:31:39 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 03:31:39 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 03:31:39 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 03:31:39 [notice] 1#1: exit
+2019/10/01 03:37:32 [notice] 1#1: using the "epoll" event method
+2019/10/01 03:37:32 [notice] 1#1: nginx/1.17.3
+2019/10/01 03:37:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 03:37:32 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 03:37:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 03:37:32 [notice] 1#1: start worker processes
+2019/10/01 03:37:32 [notice] 1#1: start worker process 6
+2019/10/01 03:37:32 [notice] 1#1: start worker process 7
+2019/10/01 03:53:52 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 03:53:52 [notice] 7#7: exiting
+2019/10/01 03:53:52 [notice] 7#7: exit
+2019/10/01 03:53:52 [notice] 6#6: exiting
+2019/10/01 03:53:52 [notice] 6#6: exit
+2019/10/01 03:53:52 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 03:53:52 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 03:53:52 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 03:53:52 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 03:53:52 [notice] 1#1: exit
+2019/10/01 03:55:06 [notice] 1#1: using the "epoll" event method
+2019/10/01 03:55:06 [notice] 1#1: nginx/1.17.3
+2019/10/01 03:55:06 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 03:55:06 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 03:55:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 03:55:06 [notice] 1#1: start worker processes
+2019/10/01 03:55:06 [notice] 1#1: start worker process 6
+2019/10/01 03:55:06 [notice] 1#1: start worker process 7
+2019/10/01 04:00:25 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:00:25 [notice] 6#6: exiting
+2019/10/01 04:00:25 [notice] 6#6: exit
+2019/10/01 04:00:25 [notice] 7#7: exiting
+2019/10/01 04:00:25 [notice] 7#7: exit
+2019/10/01 04:00:25 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:00:25 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:00:25 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:00:25 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:00:25 [notice] 1#1: exit
+2019/10/01 04:00:43 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:00:43 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:00:43 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:00:43 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:00:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:00:43 [notice] 1#1: start worker processes
+2019/10/01 04:00:43 [notice] 1#1: start worker process 6
+2019/10/01 04:00:43 [notice] 1#1: start worker process 7
+2019/10/01 04:01:31 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:01:31 [notice] 7#7: exiting
+2019/10/01 04:01:31 [notice] 6#6: exiting
+2019/10/01 04:01:31 [notice] 7#7: exit
+2019/10/01 04:01:31 [notice] 6#6: exit
+2019/10/01 04:01:31 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:01:31 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:01:31 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:01:31 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:01:31 [notice] 1#1: exit
+2019/10/01 04:02:43 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:02:43 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:02:43 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:02:43 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:02:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:02:43 [notice] 1#1: start worker processes
+2019/10/01 04:02:43 [notice] 1#1: start worker process 6
+2019/10/01 04:02:43 [notice] 1#1: start worker process 7
+2019/10/01 04:03:37 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:03:37 [notice] 6#6: exiting
+2019/10/01 04:03:37 [notice] 6#6: exit
+2019/10/01 04:03:37 [notice] 7#7: exiting
+2019/10/01 04:03:37 [notice] 7#7: exit
+2019/10/01 04:03:37 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:03:37 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:03:37 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:03:37 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:03:37 [notice] 1#1: exit
+2019/10/01 04:06:17 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:06:17 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:06:17 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:06:17 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:06:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:06:17 [notice] 1#1: start worker processes
+2019/10/01 04:06:17 [notice] 1#1: start worker process 6
+2019/10/01 04:06:17 [notice] 1#1: start worker process 7
+2019/10/01 04:10:44 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:10:44 [notice] 7#7: exiting
+2019/10/01 04:10:44 [notice] 6#6: exiting
+2019/10/01 04:10:44 [notice] 6#6: exit
+2019/10/01 04:10:44 [notice] 7#7: exit
+2019/10/01 04:10:44 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:10:44 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:10:44 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:10:44 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:10:44 [notice] 1#1: exit
+2019/10/01 04:11:05 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:11:05 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:11:05 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:11:05 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:11:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:11:05 [notice] 1#1: start worker processes
+2019/10/01 04:11:05 [notice] 1#1: start worker process 6
+2019/10/01 04:11:05 [notice] 1#1: start worker process 7
+2019/10/01 04:11:07 [error] 6#6: *1 open() "/usr/share/nginx/html/app" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /app HTTP/1.1", host: "localhost"
+2019/10/01 04:11:18 [error] 6#6: *1 open() "/usr/share/nginx/html/eshop" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /eshop HTTP/1.1", host: "localhost"
+2019/10/01 04:11:19 [error] 6#6: *1 open() "/usr/share/nginx/html/eshop" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /eshop HTTP/1.1", host: "localhost"
+2019/10/01 04:12:16 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:12:16 [notice] 7#7: exiting
+2019/10/01 04:12:16 [notice] 7#7: exit
+2019/10/01 04:12:16 [notice] 6#6: exiting
+2019/10/01 04:12:16 [notice] 6#6: exit
+2019/10/01 04:12:16 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:12:16 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:12:16 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:12:16 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:12:16 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:12:16 [notice] 1#1: exit
+2019/10/01 04:12:54 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:12:54 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:12:54 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:12:54 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:12:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:12:54 [notice] 1#1: start worker processes
+2019/10/01 04:12:54 [notice] 1#1: start worker process 7
+2019/10/01 04:12:54 [notice] 1#1: start worker process 8
+2019/10/01 04:13:09 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:3100/", host: "0.0.0.0"
+2019/10/01 04:13:09 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:3100/favicon.ico", host: "0.0.0.0", referrer: "http://0.0.0.0/"
+2019/10/01 04:13:29 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:13:29 [notice] 8#8: exiting
+2019/10/01 04:13:29 [notice] 8#8: exit
+2019/10/01 04:13:29 [notice] 7#7: exiting
+2019/10/01 04:13:29 [notice] 7#7: exit
+2019/10/01 04:13:29 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:13:29 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/01 04:13:29 [notice] 1#1: worker process 8 exited with code 0
+2019/10/01 04:13:29 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:13:29 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:13:29 [notice] 1#1: exit
+2019/10/01 04:13:58 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:13:58 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:13:58 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:13:58 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:13:58 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:13:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:13:58 [notice] 1#1: start worker processes
+2019/10/01 04:13:58 [notice] 1#1: start worker process 6
+2019/10/01 04:13:58 [notice] 1#1: start worker process 7
+2019/10/01 04:14:00 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:3000/", host: "0.0.0.0"
+2019/10/01 04:14:01 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:3000/favicon.ico", host: "0.0.0.0", referrer: "http://0.0.0.0/"
+2019/10/01 04:14:39 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:14:39 [notice] 7#7: exiting
+2019/10/01 04:14:39 [notice] 7#7: exit
+2019/10/01 04:14:39 [notice] 6#6: exiting
+2019/10/01 04:14:39 [notice] 6#6: exit
+2019/10/01 04:14:39 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:14:39 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:14:39 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:14:39 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:14:39 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:14:39 [notice] 1#1: exit
+2019/10/01 04:15:03 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:15:03 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:15:03 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:15:03 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:15:03 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:15:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:15:03 [notice] 1#1: start worker processes
+2019/10/01 04:15:03 [notice] 1#1: start worker process 6
+2019/10/01 04:15:03 [notice] 1#1: start worker process 7
+2019/10/01 04:15:49 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:15:49 [notice] 6#6: exiting
+2019/10/01 04:15:49 [notice] 6#6: exit
+2019/10/01 04:15:49 [notice] 7#7: exiting
+2019/10/01 04:15:49 [notice] 7#7: exit
+2019/10/01 04:15:49 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:15:49 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:15:49 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:15:49 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:15:49 [notice] 1#1: exit
+2019/10/01 04:16:16 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:16:16 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:16:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:16:16 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:16:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:16:16 [notice] 1#1: start worker processes
+2019/10/01 04:16:16 [notice] 1#1: start worker process 6
+2019/10/01 04:16:16 [notice] 1#1: start worker process 7
+2019/10/01 04:17:30 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:17:30 [notice] 6#6: exiting
+2019/10/01 04:17:30 [notice] 6#6: exit
+2019/10/01 04:17:30 [notice] 7#7: exiting
+2019/10/01 04:17:30 [notice] 7#7: exit
+2019/10/01 04:17:30 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:17:30 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:17:30 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:17:30 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:17:30 [notice] 1#1: exit
+2019/10/01 04:18:04 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:18:04 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:18:04 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:18:04 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:18:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:18:04 [notice] 1#1: start worker processes
+2019/10/01 04:18:04 [notice] 1#1: start worker process 7
+2019/10/01 04:18:04 [notice] 1#1: start worker process 8
+2019/10/01 04:20:36 [error] 8#8: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/01 04:20:36 [warn] 8#8: *1 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/01 04:20:36 [error] 8#8: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/01 04:20:36 [warn] 8#8: *1 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/01 04:21:09 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:21:09 [notice] 8#8: exiting
+2019/10/01 04:21:09 [notice] 7#7: exiting
+2019/10/01 04:21:09 [notice] 8#8: exit
+2019/10/01 04:21:09 [notice] 7#7: exit
+2019/10/01 04:21:09 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:21:09 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/01 04:21:09 [notice] 1#1: worker process 8 exited with code 0
+2019/10/01 04:21:09 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/01 04:21:09 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:21:09 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:21:09 [notice] 1#1: exit
+2019/10/01 04:21:34 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:21:34 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:21:34 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:21:34 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:21:34 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:21:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:21:34 [notice] 1#1: start worker processes
+2019/10/01 04:21:34 [notice] 1#1: start worker process 6
+2019/10/01 04:21:34 [notice] 1#1: start worker process 7
+2019/10/01 04:21:54 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:21:54 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:21:54 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:21:54 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:22:00 [error] 6#6: *1 no live upstreams while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
+2019/10/01 04:22:16 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:22:16 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:22:16 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:22:16 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:25:05 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:25:05 [notice] 7#7: exiting
+2019/10/01 04:25:05 [notice] 6#6: exiting
+2019/10/01 04:25:05 [notice] 7#7: exit
+2019/10/01 04:25:05 [notice] 6#6: exit
+2019/10/01 04:25:05 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:25:05 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:25:05 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:25:05 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:25:05 [notice] 1#1: exit
+2019/10/01 04:25:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:25:24 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:25:24 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:25:24 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:25:24 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:25:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:25:24 [notice] 1#1: start worker processes
+2019/10/01 04:25:24 [notice] 1#1: start worker process 6
+2019/10/01 04:25:24 [notice] 1#1: start worker process 7
+2019/10/01 04:25:33 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:26:57 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:26:57 [notice] 6#6: exiting
+2019/10/01 04:26:57 [notice] 7#7: exiting
+2019/10/01 04:26:57 [notice] 6#6: exit
+2019/10/01 04:26:57 [notice] 7#7: exit
+2019/10/01 04:26:57 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:26:58 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:26:58 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:26:58 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:26:58 [notice] 1#1: exit
+2019/10/01 04:27:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:27:16 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:27:16 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:27:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:27:16 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:27:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:27:16 [notice] 1#1: start worker processes
+2019/10/01 04:27:16 [notice] 1#1: start worker process 6
+2019/10/01 04:27:16 [notice] 1#1: start worker process 7
+2019/10/01 04:27:32 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:27:59 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:27:59 [notice] 6#6: exiting
+2019/10/01 04:27:59 [notice] 7#7: exiting
+2019/10/01 04:27:59 [notice] 7#7: exit
+2019/10/01 04:27:59 [notice] 6#6: exit
+2019/10/01 04:27:59 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:27:59 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:27:59 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:27:59 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:27:59 [notice] 1#1: exit
+2019/10/01 04:39:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:39:05 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:39:05 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:39:05 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:39:05 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:39:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:39:05 [notice] 1#1: start worker processes
+2019/10/01 04:39:05 [notice] 1#1: start worker process 6
+2019/10/01 04:39:05 [notice] 1#1: start worker process 7
+2019/10/01 04:39:11 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "127.0.0.1"
+2019/10/01 04:39:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/01 04:39:15 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2019/10/01 04:39:57 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:39:57 [notice] 7#7: exiting
+2019/10/01 04:39:57 [notice] 6#6: exiting
+2019/10/01 04:39:57 [notice] 7#7: exit
+2019/10/01 04:39:57 [notice] 6#6: exit
+2019/10/01 04:39:57 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:39:57 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:39:57 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:39:57 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/01 04:39:57 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:39:57 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:39:57 [notice] 1#1: exit
+2019/10/01 04:40:22 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:40:22 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:40:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:40:22 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:40:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:40:22 [notice] 1#1: start worker processes
+2019/10/01 04:40:22 [notice] 1#1: start worker process 6
+2019/10/01 04:40:22 [notice] 1#1: start worker process 7
+2019/10/01 04:40:42 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:40:42 [notice] 7#7: exiting
+2019/10/01 04:40:42 [notice] 7#7: exit
+2019/10/01 04:40:42 [notice] 6#6: exiting
+2019/10/01 04:40:42 [notice] 6#6: exit
+2019/10/01 04:40:42 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:40:42 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:40:42 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:40:42 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/01 04:40:42 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:40:42 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:40:42 [notice] 1#1: exit
+2019/10/01 04:41:08 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:41:08 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:41:08 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:41:08 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:41:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:41:08 [notice] 1#1: start worker processes
+2019/10/01 04:41:08 [notice] 1#1: start worker process 6
+2019/10/01 04:41:08 [notice] 1#1: start worker process 7
+2019/10/01 04:41:18 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "127.0.0.1"
+2019/10/01 04:41:19 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:3000/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/01 04:42:00 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:42:00 [notice] 7#7: exiting
+2019/10/01 04:42:00 [notice] 7#7: exit
+2019/10/01 04:42:00 [notice] 6#6: exiting
+2019/10/01 04:42:00 [notice] 6#6: exit
+2019/10/01 04:42:00 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:42:00 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:42:00 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:42:00 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:42:00 [notice] 1#1: exit
+2019/10/01 04:42:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:42:41 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:42:41 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:42:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:42:41 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:42:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:42:41 [notice] 1#1: start worker processes
+2019/10/01 04:42:41 [notice] 1#1: start worker process 6
+2019/10/01 04:42:41 [notice] 1#1: start worker process 7
+2019/10/01 04:43:40 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:43:40 [notice] 6#6: exiting
+2019/10/01 04:43:40 [notice] 6#6: exit
+2019/10/01 04:43:40 [notice] 7#7: exiting
+2019/10/01 04:43:40 [notice] 7#7: exit
+2019/10/01 04:43:40 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:43:40 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:43:40 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:43:40 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:43:40 [notice] 1#1: exit
+2019/10/01 04:44:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 04:44:07 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:44:07 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:44:07 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:44:07 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:44:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:44:07 [notice] 1#1: start worker processes
+2019/10/01 04:44:07 [notice] 1#1: start worker process 6
+2019/10/01 04:44:07 [notice] 1#1: start worker process 7
+2019/10/01 04:45:15 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:45:15 [notice] 6#6: exiting
+2019/10/01 04:45:15 [notice] 6#6: exit
+2019/10/01 04:45:15 [notice] 7#7: exiting
+2019/10/01 04:45:15 [notice] 7#7: exit
+2019/10/01 04:45:15 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:45:15 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:45:15 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:45:15 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:45:15 [notice] 1#1: exit
+2019/10/01 04:45:46 [notice] 1#1: using the "epoll" event method
+2019/10/01 04:45:46 [notice] 1#1: nginx/1.17.3
+2019/10/01 04:45:46 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 04:45:46 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 04:45:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 04:45:46 [notice] 1#1: start worker processes
+2019/10/01 04:45:46 [notice] 1#1: start worker process 6
+2019/10/01 04:45:46 [notice] 1#1: start worker process 7
+2019/10/01 04:50:00 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 04:50:01 [notice] 6#6: exiting
+2019/10/01 04:50:01 [notice] 7#7: exiting
+2019/10/01 04:50:01 [notice] 7#7: exit
+2019/10/01 04:50:01 [notice] 6#6: exit
+2019/10/01 04:50:01 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 04:50:01 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 04:50:01 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 04:50:01 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/01 04:50:01 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 04:50:01 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 04:50:01 [notice] 1#1: exit
+2019/10/01 07:39:26 [notice] 1#1: using the "epoll" event method
+2019/10/01 07:39:26 [notice] 1#1: nginx/1.17.3
+2019/10/01 07:39:26 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 07:39:26 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 07:39:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 07:39:26 [notice] 1#1: start worker processes
+2019/10/01 07:39:26 [notice] 1#1: start worker process 6
+2019/10/01 07:39:26 [notice] 1#1: start worker process 7
+2019/10/01 07:48:41 [notice] 1#1: using the "epoll" event method
+2019/10/01 07:48:41 [notice] 1#1: nginx/1.17.3
+2019/10/01 07:48:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 07:48:41 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 07:48:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 07:48:41 [notice] 1#1: start worker processes
+2019/10/01 07:48:41 [notice] 1#1: start worker process 6
+2019/10/01 07:48:41 [notice] 1#1: start worker process 7
+2019/10/01 07:49:02 [error] 7#7: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/10/01 07:50:06 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 07:50:06 [notice] 7#7: exiting
+2019/10/01 07:50:06 [notice] 6#6: exiting
+2019/10/01 07:50:06 [notice] 7#7: exit
+2019/10/01 07:50:06 [notice] 6#6: exit
+2019/10/01 07:50:06 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:50:06 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 07:50:06 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 07:50:06 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 07:50:06 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 07:50:06 [notice] 1#1: exit
+2019/10/01 07:50:32 [notice] 1#1: using the "epoll" event method
+2019/10/01 07:50:32 [notice] 1#1: nginx/1.17.3
+2019/10/01 07:50:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 07:50:32 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 07:50:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 07:50:32 [notice] 1#1: start worker processes
+2019/10/01 07:50:32 [notice] 1#1: start worker process 6
+2019/10/01 07:50:32 [notice] 1#1: start worker process 7
+2019/10/01 07:51:03 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:3000/", host: "0.0.0.0"
+2019/10/01 07:51:04 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:3000/favicon.ico", host: "0.0.0.0", referrer: "http://0.0.0.0/"
+2019/10/01 07:51:31 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 07:51:31 [notice] 7#7: exiting
+2019/10/01 07:51:31 [notice] 6#6: exiting
+2019/10/01 07:51:31 [notice] 6#6: exit
+2019/10/01 07:51:31 [notice] 7#7: exit
+2019/10/01 07:51:31 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:51:31 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:51:32 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 07:51:32 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 07:51:32 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:51:32 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 07:51:32 [notice] 1#1: exit
+2019/10/01 07:52:11 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 07:52:11 [notice] 1#1: using the "epoll" event method
+2019/10/01 07:52:11 [notice] 1#1: nginx/1.17.3
+2019/10/01 07:52:11 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 07:52:11 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 07:52:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 07:52:11 [notice] 1#1: start worker processes
+2019/10/01 07:52:11 [notice] 1#1: start worker process 6
+2019/10/01 07:52:11 [notice] 1#1: start worker process 7
+2019/10/01 07:53:44 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 07:53:44 [notice] 6#6: exiting
+2019/10/01 07:53:44 [notice] 6#6: exit
+2019/10/01 07:53:44 [notice] 7#7: exiting
+2019/10/01 07:53:44 [notice] 7#7: exit
+2019/10/01 07:53:44 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:53:44 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:53:44 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 07:53:44 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 07:53:44 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/01 07:53:44 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 07:53:44 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 07:53:44 [notice] 1#1: exit
+2019/10/01 07:55:00 [notice] 1#1: using the "epoll" event method
+2019/10/01 07:55:00 [notice] 1#1: nginx/1.17.3
+2019/10/01 07:55:00 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 07:55:00 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 07:55:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 07:55:00 [notice] 1#1: start worker processes
+2019/10/01 07:55:00 [notice] 1#1: start worker process 6
+2019/10/01 07:55:00 [notice] 1#1: start worker process 7
+2019/10/01 07:55:50 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 07:55:50 [notice] 6#6: exiting
+2019/10/01 07:55:50 [notice] 6#6: exit
+2019/10/01 07:55:50 [notice] 7#7: exiting
+2019/10/01 07:55:50 [notice] 7#7: exit
+2019/10/01 07:55:50 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:55:50 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 07:55:50 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 07:55:50 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 07:55:50 [notice] 1#1: exit
+2019/10/01 07:56:21 [notice] 1#1: using the "epoll" event method
+2019/10/01 07:56:21 [notice] 1#1: nginx/1.17.3
+2019/10/01 07:56:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 07:56:21 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 07:56:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 07:56:21 [notice] 1#1: start worker processes
+2019/10/01 07:56:21 [notice] 1#1: start worker process 7
+2019/10/01 07:56:21 [notice] 1#1: start worker process 8
+2019/10/01 07:56:59 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 07:56:59 [notice] 7#7: exiting
+2019/10/01 07:56:59 [notice] 8#8: exiting
+2019/10/01 07:56:59 [notice] 7#7: exit
+2019/10/01 07:56:59 [notice] 8#8: exit
+2019/10/01 07:56:59 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 07:56:59 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 07:56:59 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 07:56:59 [notice] 1#1: worker process 8 exited with code 0
+2019/10/01 07:56:59 [notice] 1#1: exit
+2019/10/01 07:58:33 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 07:58:33 [notice] 1#1: using the "epoll" event method
+2019/10/01 07:58:33 [notice] 1#1: nginx/1.17.3
+2019/10/01 07:58:33 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 07:58:33 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 07:58:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 07:58:33 [notice] 1#1: start worker processes
+2019/10/01 07:58:33 [notice] 1#1: start worker process 6
+2019/10/01 07:58:33 [notice] 1#1: start worker process 7
+2019/10/01 07:59:08 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:3000/", host: "localhost"
+2019/10/01 07:59:54 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:3000/", host: "localhost"
+2019/10/01 08:00:54 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:3000/", host: "localhost"
+2019/10/01 08:01:41 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:01:41 [notice] 7#7: exiting
+2019/10/01 08:01:41 [notice] 6#6: exiting
+2019/10/01 08:01:41 [notice] 7#7: exit
+2019/10/01 08:01:41 [notice] 6#6: exit
+2019/10/01 08:01:41 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:01:41 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 08:01:41 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:01:41 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:01:41 [notice] 1#1: exit
+2019/10/01 08:03:04 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 08:03:04 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:03:04 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:03:04 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:03:04 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:03:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:03:04 [notice] 1#1: start worker processes
+2019/10/01 08:03:04 [notice] 1#1: start worker process 6
+2019/10/01 08:03:04 [notice] 1#1: start worker process 7
+2019/10/01 08:04:34 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/01 08:07:05 [error] 6#6: *3 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/01 08:08:01 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:08:01 [notice] 6#6: exiting
+2019/10/01 08:08:01 [notice] 7#7: exiting
+2019/10/01 08:08:01 [notice] 7#7: exit
+2019/10/01 08:08:01 [notice] 6#6: exit
+2019/10/01 08:08:01 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:08:01 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 08:08:01 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:08:01 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:08:01 [notice] 1#1: exit
+2019/10/01 08:08:23 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 08:08:23 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:08:23 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:08:23 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:08:23 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:08:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:08:23 [notice] 1#1: start worker processes
+2019/10/01 08:08:23 [notice] 1#1: start worker process 6
+2019/10/01 08:08:23 [notice] 1#1: start worker process 7
+2019/10/01 08:09:13 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:09:13 [notice] 6#6: exiting
+2019/10/01 08:09:13 [notice] 6#6: exit
+2019/10/01 08:09:13 [notice] 7#7: exiting
+2019/10/01 08:09:13 [notice] 7#7: exit
+2019/10/01 08:09:13 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:09:13 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 08:09:13 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:09:13 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:09:13 [notice] 1#1: exit
+2019/10/01 08:09:43 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:09:43 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:09:43 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:09:43 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:09:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:09:43 [notice] 1#1: start worker processes
+2019/10/01 08:09:43 [notice] 1#1: start worker process 6
+2019/10/01 08:09:43 [notice] 1#1: start worker process 7
+2019/10/01 08:12:29 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:12:29 [notice] 7#7: exiting
+2019/10/01 08:12:29 [notice] 6#6: exiting
+2019/10/01 08:12:29 [notice] 7#7: exit
+2019/10/01 08:12:29 [notice] 6#6: exit
+2019/10/01 08:12:29 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 08:12:29 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:12:29 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/01 08:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 08:12:29 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:12:29 [notice] 1#1: exit
+2019/10/01 08:13:16 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:13:16 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:13:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:13:16 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:13:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:13:16 [notice] 1#1: start worker processes
+2019/10/01 08:13:16 [notice] 1#1: start worker process 6
+2019/10/01 08:13:16 [notice] 1#1: start worker process 7
+2019/10/01 08:14:06 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:14:06 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:14:06 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:14:06 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:14:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:14:06 [notice] 1#1: start worker processes
+2019/10/01 08:14:06 [notice] 1#1: start worker process 6
+2019/10/01 08:14:06 [notice] 1#1: start worker process 7
+2019/10/01 08:14:48 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:14:48 [notice] 6#6: exiting
+2019/10/01 08:14:48 [notice] 6#6: exit
+2019/10/01 08:14:48 [notice] 7#7: exiting
+2019/10/01 08:14:48 [notice] 7#7: exit
+2019/10/01 08:14:48 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:14:48 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 08:14:48 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:14:48 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/01 08:14:48 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 08:14:48 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:14:48 [notice] 1#1: exit
+2019/10/01 08:15:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 08:15:39 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:15:39 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:15:39 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:15:39 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:15:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:15:39 [notice] 1#1: start worker processes
+2019/10/01 08:15:39 [notice] 1#1: start worker process 6
+2019/10/01 08:15:39 [notice] 1#1: start worker process 7
+2019/10/01 08:16:33 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/01 08:17:16 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:17:16 [notice] 6#6: exiting
+2019/10/01 08:17:16 [notice] 7#7: exiting
+2019/10/01 08:17:16 [notice] 7#7: exit
+2019/10/01 08:17:16 [notice] 6#6: exit
+2019/10/01 08:17:17 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:17:17 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 08:17:17 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:17:17 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:17:17 [notice] 1#1: exit
+2019/10/01 08:17:34 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:17:34 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:17:34 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:17:34 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:17:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:17:34 [notice] 1#1: start worker processes
+2019/10/01 08:17:34 [notice] 1#1: start worker process 6
+2019/10/01 08:17:34 [notice] 1#1: start worker process 7
+2019/10/01 08:17:57 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "0.0.0.0"
+2019/10/01 08:17:58 [error] 6#6: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:8081/favicon.ico", host: "0.0.0.0", referrer: "http://0.0.0.0/"
+2019/10/01 08:19:48 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:19:48 [notice] 7#7: exiting
+2019/10/01 08:19:48 [notice] 6#6: exiting
+2019/10/01 08:19:48 [notice] 7#7: exit
+2019/10/01 08:19:48 [notice] 6#6: exit
+2019/10/01 08:19:48 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:19:48 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 08:19:48 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:19:48 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:19:48 [notice] 1#1: exit
+2019/10/01 08:20:08 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:20:08 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:20:08 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:20:08 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:20:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:20:08 [notice] 1#1: start worker processes
+2019/10/01 08:20:08 [notice] 1#1: start worker process 6
+2019/10/01 08:20:08 [notice] 1#1: start worker process 7
+2019/10/01 08:20:17 [info] 6#6: *6 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while reading upstream, client: 172.19.0.1, server: _, request: "GET /socket.io/socket.io.js HTTP/1.1", upstream: "http://172.19.0.2:8081/socket.io/socket.io.js", host: "0.0.0.0", referrer: "http://0.0.0.0/"
+2019/10/01 08:21:01 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:21:01 [notice] 7#7: exiting
+2019/10/01 08:21:01 [notice] 6#6: exiting
+2019/10/01 08:21:01 [notice] 6#6: exit
+2019/10/01 08:21:01 [notice] 7#7: exit
+2019/10/01 08:21:01 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:21:01 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:21:01 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/01 08:21:01 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:21:01 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:21:01 [notice] 1#1: exit
+2019/10/01 08:21:18 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:21:18 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:21:18 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:21:18 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:21:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:21:18 [notice] 1#1: start worker processes
+2019/10/01 08:21:18 [notice] 1#1: start worker process 6
+2019/10/01 08:21:18 [notice] 1#1: start worker process 7
+2019/10/01 08:21:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/01 08:21:54 [notice] 1#1: using the "epoll" event method
+2019/10/01 08:21:54 [notice] 1#1: nginx/1.17.3
+2019/10/01 08:21:54 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/01 08:21:54 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/01 08:21:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/01 08:21:54 [notice] 1#1: start worker processes
+2019/10/01 08:21:54 [notice] 1#1: start worker process 6
+2019/10/01 08:21:54 [notice] 1#1: start worker process 7
+2019/10/01 08:22:00 [info] 7#7: *4 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while reading upstream, client: 172.19.0.1, server: localhost, request: "GET /socket.io/socket.io.js HTTP/1.1", upstream: "http://172.19.0.2:8081/socket.io/socket.io.js", host: "localhost", referrer: "http://localhost/"
+2019/10/01 08:22:26 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/01 08:22:26 [notice] 6#6: exiting
+2019/10/01 08:22:26 [notice] 7#7: exiting
+2019/10/01 08:22:26 [notice] 7#7: exit
+2019/10/01 08:22:26 [notice] 6#6: exit
+2019/10/01 08:22:26 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/01 08:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/01 08:22:26 [notice] 1#1: worker process 6 exited with code 0
+2019/10/01 08:22:26 [notice] 1#1: worker process 7 exited with code 0
+2019/10/01 08:22:26 [notice] 1#1: exit
+2019/10/07 03:20:12 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:15 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:18 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:21 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:24 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:26 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:31 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:40 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:20:55 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:21:23 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:22:15 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:23:16 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:24:17 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:25:19 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:26:20 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:27:21 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:28:23 [emerg] 1#1: host not found in upstream "e-commerce" in /etc/nginx/nginx.conf:29
+2019/10/07 03:37:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 03:37:41 [notice] 1#1: using the "epoll" event method
+2019/10/07 03:37:41 [notice] 1#1: nginx/1.17.4
+2019/10/07 03:37:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 03:37:41 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 03:37:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 03:37:41 [notice] 1#1: start worker processes
+2019/10/07 03:37:41 [notice] 1#1: start worker process 6
+2019/10/07 03:37:41 [notice] 1#1: start worker process 7
+2019/10/07 04:14:51 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:14:51 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:14:51 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:14:51 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:14:51 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:14:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:14:51 [notice] 1#1: start worker processes
+2019/10/07 04:14:51 [notice] 1#1: start worker process 6
+2019/10/07 04:14:51 [notice] 1#1: start worker process 7
+2019/10/07 04:21:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:21:24 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:21:24 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:21:24 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:21:24 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:21:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:21:24 [notice] 1#1: start worker processes
+2019/10/07 04:21:24 [notice] 1#1: start worker process 6
+2019/10/07 04:21:24 [notice] 1#1: start worker process 7
+2019/10/07 04:21:51 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:21:51 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:21:51 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:21:51 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:21:51 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:21:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:21:51 [notice] 1#1: start worker processes
+2019/10/07 04:21:51 [notice] 1#1: start worker process 6
+2019/10/07 04:21:51 [notice] 1#1: start worker process 7
+2019/10/07 04:22:26 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 04:22:26 [notice] 7#7: exiting
+2019/10/07 04:22:26 [notice] 7#7: exit
+2019/10/07 04:22:26 [notice] 6#6: exiting
+2019/10/07 04:22:26 [notice] 6#6: exit
+2019/10/07 04:22:26 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 04:22:26 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 04:22:26 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 04:22:26 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 04:22:26 [notice] 1#1: exit
+2019/10/07 04:22:28 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:22:28 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:22:28 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:22:28 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:22:28 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:22:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:22:28 [notice] 1#1: start worker processes
+2019/10/07 04:22:28 [notice] 1#1: start worker process 6
+2019/10/07 04:22:28 [notice] 1#1: start worker process 7
+2019/10/07 04:22:57 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 04:22:57 [notice] 6#6: exiting
+2019/10/07 04:22:57 [notice] 6#6: exit
+2019/10/07 04:22:57 [notice] 7#7: exiting
+2019/10/07 04:22:57 [notice] 7#7: exit
+2019/10/07 04:22:57 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 04:22:58 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 04:22:58 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 04:22:58 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 04:22:58 [notice] 1#1: exit
+2019/10/07 04:27:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:27:06 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:27:06 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:27:06 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:27:06 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:27:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:27:06 [notice] 1#1: start worker processes
+2019/10/07 04:27:06 [notice] 1#1: start worker process 6
+2019/10/07 04:27:06 [notice] 1#1: start worker process 7
+2019/10/07 04:30:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:30:19 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:30:19 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:30:19 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:30:19 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:30:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:30:19 [notice] 1#1: start worker processes
+2019/10/07 04:30:19 [notice] 1#1: start worker process 7
+2019/10/07 04:30:19 [notice] 1#1: start worker process 8
+2019/10/07 04:32:50 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 04:32:50 [notice] 7#7: exiting
+2019/10/07 04:32:50 [notice] 8#8: exiting
+2019/10/07 04:32:50 [notice] 7#7: exit
+2019/10/07 04:32:50 [notice] 8#8: exit
+2019/10/07 04:32:50 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 04:32:50 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/07 04:32:50 [notice] 1#1: worker process 8 exited with code 0
+2019/10/07 04:32:50 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/07 04:32:50 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 04:32:50 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 04:32:50 [notice] 1#1: exit
+2019/10/07 04:32:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:32:53 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:32:53 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:32:53 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:32:53 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:32:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:32:53 [notice] 1#1: start worker processes
+2019/10/07 04:32:53 [notice] 1#1: start worker process 6
+2019/10/07 04:32:53 [notice] 1#1: start worker process 7
+2019/10/07 04:33:17 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 04:33:17 [notice] 6#6: exiting
+2019/10/07 04:33:17 [notice] 6#6: exit
+2019/10/07 04:33:17 [notice] 7#7: exiting
+2019/10/07 04:33:17 [notice] 7#7: exit
+2019/10/07 04:33:17 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 04:33:17 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 04:33:17 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 04:33:17 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/07 04:33:17 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 04:33:17 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 04:33:17 [notice] 1#1: exit
+2019/10/07 04:34:51 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:34:51 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:34:51 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:34:51 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:34:51 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:34:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:34:51 [notice] 1#1: start worker processes
+2019/10/07 04:34:51 [notice] 1#1: start worker process 6
+2019/10/07 04:34:51 [notice] 1#1: start worker process 7
+2019/10/07 04:46:29 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 04:46:29 [notice] 6#6: exiting
+2019/10/07 04:46:29 [notice] 7#7: exiting
+2019/10/07 04:46:29 [notice] 6#6: exit
+2019/10/07 04:46:29 [notice] 7#7: exit
+2019/10/07 04:46:29 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 04:46:29 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 04:46:29 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 04:46:29 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 04:46:29 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 04:46:29 [notice] 1#1: exit
+2019/10/07 04:46:33 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:46:33 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:46:33 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:46:33 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:46:33 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:46:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:46:33 [notice] 1#1: start worker processes
+2019/10/07 04:46:33 [notice] 1#1: start worker process 6
+2019/10/07 04:46:33 [notice] 1#1: start worker process 7
+2019/10/07 04:47:13 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 04:47:13 [notice] 6#6: exiting
+2019/10/07 04:47:13 [notice] 6#6: exit
+2019/10/07 04:47:13 [notice] 7#7: exiting
+2019/10/07 04:47:13 [notice] 7#7: exit
+2019/10/07 04:47:13 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 04:47:13 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 04:47:13 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 04:47:13 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 04:47:13 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 04:47:13 [notice] 1#1: exit
+2019/10/07 04:56:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:56:48 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:56:48 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:56:48 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:56:48 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:56:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:56:48 [notice] 1#1: start worker processes
+2019/10/07 04:56:48 [notice] 1#1: start worker process 6
+2019/10/07 04:56:48 [notice] 1#1: start worker process 7
+2019/10/07 04:57:55 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 04:57:55 [notice] 1#1: using the "epoll" event method
+2019/10/07 04:57:55 [notice] 1#1: nginx/1.17.4
+2019/10/07 04:57:55 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 04:57:55 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 04:57:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 04:57:55 [notice] 1#1: start worker processes
+2019/10/07 04:57:55 [notice] 1#1: start worker process 6
+2019/10/07 04:57:55 [notice] 1#1: start worker process 7
+2019/10/07 05:01:17 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 05:01:17 [notice] 6#6: exiting
+2019/10/07 05:01:17 [notice] 7#7: exiting
+2019/10/07 05:01:17 [notice] 7#7: exit
+2019/10/07 05:01:17 [notice] 6#6: exit
+2019/10/07 05:01:17 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 05:01:17 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 05:01:17 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 05:01:17 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 05:01:17 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 05:01:17 [notice] 1#1: exit
+2019/10/07 05:01:21 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 05:01:21 [notice] 1#1: using the "epoll" event method
+2019/10/07 05:01:21 [notice] 1#1: nginx/1.17.4
+2019/10/07 05:01:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 05:01:21 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 05:01:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 05:01:21 [notice] 1#1: start worker processes
+2019/10/07 05:01:21 [notice] 1#1: start worker process 6
+2019/10/07 05:01:21 [notice] 1#1: start worker process 7
+2019/10/07 06:15:34 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:15:34 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:15:34 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:15:34 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:15:34 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:15:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:15:34 [notice] 1#1: start worker processes
+2019/10/07 06:15:34 [notice] 1#1: start worker process 6
+2019/10/07 06:15:34 [notice] 1#1: start worker process 7
+2019/10/07 06:17:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:17:48 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:17:48 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:17:48 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:17:48 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:17:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:17:48 [notice] 1#1: start worker processes
+2019/10/07 06:17:48 [notice] 1#1: start worker process 7
+2019/10/07 06:17:48 [notice] 1#1: start worker process 8
+2019/10/07 06:21:49 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:21:49 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:21:49 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:21:49 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:21:49 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:21:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:21:49 [notice] 1#1: start worker processes
+2019/10/07 06:21:49 [notice] 1#1: start worker process 6
+2019/10/07 06:21:49 [notice] 1#1: start worker process 7
+2019/10/07 06:21:55 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:21:55 [notice] 6#6: exiting
+2019/10/07 06:21:55 [notice] 6#6: exit
+2019/10/07 06:21:55 [notice] 7#7: exiting
+2019/10/07 06:21:55 [notice] 7#7: exit
+2019/10/07 06:21:55 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:21:55 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 06:21:55 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:21:55 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/07 06:21:56 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 06:21:56 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:21:56 [notice] 1#1: exit
+2019/10/07 06:32:01 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:32:01 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:32:01 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:32:01 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:32:01 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:32:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:32:01 [notice] 1#1: start worker processes
+2019/10/07 06:32:01 [notice] 1#1: start worker process 6
+2019/10/07 06:32:01 [notice] 1#1: start worker process 7
+2019/10/07 06:34:02 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:34:02 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:34:02 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:34:02 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:34:02 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:34:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:34:02 [notice] 1#1: start worker processes
+2019/10/07 06:34:02 [notice] 1#1: start worker process 6
+2019/10/07 06:34:02 [notice] 1#1: start worker process 7
+2019/10/07 06:35:10 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:35:10 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:35:10 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:35:10 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:35:10 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:35:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:35:10 [notice] 1#1: start worker processes
+2019/10/07 06:35:10 [notice] 1#1: start worker process 7
+2019/10/07 06:35:10 [notice] 1#1: start worker process 8
+2019/10/07 06:36:25 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:36:25 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:36:25 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:36:25 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:36:25 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:36:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:36:25 [notice] 1#1: start worker processes
+2019/10/07 06:36:25 [notice] 1#1: start worker process 6
+2019/10/07 06:36:25 [notice] 1#1: start worker process 7
+2019/10/07 06:36:54 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:36:54 [notice] 6#6: exiting
+2019/10/07 06:36:54 [notice] 7#7: exiting
+2019/10/07 06:36:54 [notice] 7#7: exit
+2019/10/07 06:36:54 [notice] 6#6: exit
+2019/10/07 06:36:55 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:36:55 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 06:36:55 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:36:55 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:36:55 [notice] 1#1: exit
+2019/10/07 06:37:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:37:39 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:37:39 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:37:39 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:37:39 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:37:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:37:39 [notice] 1#1: start worker processes
+2019/10/07 06:37:39 [notice] 1#1: start worker process 7
+2019/10/07 06:37:39 [notice] 1#1: start worker process 8
+2019/10/07 06:38:15 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:38:15 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:38:15 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:38:15 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:38:15 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:38:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:38:15 [notice] 1#1: start worker processes
+2019/10/07 06:38:15 [notice] 1#1: start worker process 6
+2019/10/07 06:38:15 [notice] 1#1: start worker process 7
+2019/10/07 06:38:19 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:38:19 [notice] 6#6: exiting
+2019/10/07 06:38:19 [notice] 6#6: exit
+2019/10/07 06:38:19 [notice] 7#7: exiting
+2019/10/07 06:38:19 [notice] 7#7: exit
+2019/10/07 06:38:19 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:38:19 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 06:38:19 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:38:19 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:38:19 [notice] 1#1: exit
+2019/10/07 06:39:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:39:24 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:39:24 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:39:24 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:39:24 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:39:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:39:24 [notice] 1#1: start worker processes
+2019/10/07 06:39:24 [notice] 1#1: start worker process 6
+2019/10/07 06:39:24 [notice] 1#1: start worker process 7
+2019/10/07 06:41:08 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:41:08 [notice] 6#6: exiting
+2019/10/07 06:41:08 [notice] 7#7: exiting
+2019/10/07 06:41:08 [notice] 6#6: exit
+2019/10/07 06:41:08 [notice] 7#7: exit
+2019/10/07 06:41:08 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:41:08 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 06:41:08 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:41:08 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:41:08 [notice] 1#1: exit
+2019/10/07 06:41:11 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:41:11 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:41:11 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:41:11 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:41:11 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:41:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:41:11 [notice] 1#1: start worker processes
+2019/10/07 06:41:11 [notice] 1#1: start worker process 6
+2019/10/07 06:41:11 [notice] 1#1: start worker process 7
+2019/10/07 06:41:49 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:41:49 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:41:49 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:41:49 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:41:49 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:41:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:41:49 [notice] 1#1: start worker processes
+2019/10/07 06:41:49 [notice] 1#1: start worker process 6
+2019/10/07 06:41:49 [notice] 1#1: start worker process 7
+2019/10/07 06:41:59 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:41:59 [notice] 6#6: exiting
+2019/10/07 06:41:59 [notice] 6#6: exit
+2019/10/07 06:41:59 [notice] 7#7: exiting
+2019/10/07 06:41:59 [notice] 7#7: exit
+2019/10/07 06:41:59 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:41:59 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 06:41:59 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:41:59 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:41:59 [notice] 1#1: exit
+2019/10/07 06:47:00 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:47:00 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:47:00 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:47:00 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:47:00 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:47:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:47:00 [notice] 1#1: start worker processes
+2019/10/07 06:47:00 [notice] 1#1: start worker process 6
+2019/10/07 06:47:00 [notice] 1#1: start worker process 7
+2019/10/07 06:48:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:48:41 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:48:41 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:48:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:48:41 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:48:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:48:41 [notice] 1#1: start worker processes
+2019/10/07 06:48:41 [notice] 1#1: start worker process 7
+2019/10/07 06:48:41 [notice] 1#1: start worker process 8
+2019/10/07 06:51:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:51:07 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:51:07 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:51:07 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:51:07 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:51:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:51:07 [notice] 1#1: start worker processes
+2019/10/07 06:51:07 [notice] 1#1: start worker process 6
+2019/10/07 06:51:07 [notice] 1#1: start worker process 7
+2019/10/07 06:52:19 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:52:19 [notice] 7#7: exiting
+2019/10/07 06:52:19 [notice] 6#6: exiting
+2019/10/07 06:52:19 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:52:19 [notice] 6#6: exit
+2019/10/07 06:52:19 [notice] 7#7: exit
+2019/10/07 06:52:19 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:52:19 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 06:52:19 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:52:19 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:52:19 [notice] 1#1: exit
+2019/10/07 06:52:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:52:47 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:52:47 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:52:47 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:52:47 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:52:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:52:47 [notice] 1#1: start worker processes
+2019/10/07 06:52:47 [notice] 1#1: start worker process 6
+2019/10/07 06:52:47 [notice] 1#1: start worker process 7
+2019/10/07 06:55:36 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:55:36 [notice] 7#7: exiting
+2019/10/07 06:55:36 [notice] 6#6: exiting
+2019/10/07 06:55:36 [notice] 6#6: exit
+2019/10/07 06:55:36 [notice] 7#7: exit
+2019/10/07 06:55:36 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:55:36 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 06:55:36 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:55:36 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:55:36 [notice] 1#1: exit
+2019/10/07 06:55:40 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:55:40 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:55:40 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:55:40 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:55:40 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:55:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:55:40 [notice] 1#1: start worker processes
+2019/10/07 06:55:40 [notice] 1#1: start worker process 6
+2019/10/07 06:55:40 [notice] 1#1: start worker process 7
+2019/10/07 06:55:49 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:55:49 [notice] 7#7: exiting
+2019/10/07 06:55:49 [notice] 7#7: exit
+2019/10/07 06:55:49 [notice] 6#6: exiting
+2019/10/07 06:55:49 [notice] 6#6: exit
+2019/10/07 06:55:49 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 06:55:49 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:55:49 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/07 06:55:49 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 06:55:49 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 06:55:49 [notice] 1#1: exit
+2019/10/07 06:56:26 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:56:26 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:56:26 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:56:26 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:56:26 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:56:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:56:26 [notice] 1#1: start worker processes
+2019/10/07 06:56:26 [notice] 1#1: start worker process 7
+2019/10/07 06:56:26 [notice] 1#1: start worker process 8
+2019/10/07 06:56:49 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:56:49 [notice] 7#7: exiting
+2019/10/07 06:56:49 [notice] 7#7: exit
+2019/10/07 06:56:49 [notice] 8#8: exiting
+2019/10/07 06:56:49 [notice] 8#8: exit
+2019/10/07 06:56:49 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/07 06:56:49 [notice] 1#1: worker process 8 exited with code 0
+2019/10/07 06:56:49 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:56:49 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 06:56:49 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:56:49 [notice] 1#1: exit
+2019/10/07 06:57:38 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 06:57:38 [notice] 1#1: using the "epoll" event method
+2019/10/07 06:57:38 [notice] 1#1: nginx/1.17.4
+2019/10/07 06:57:38 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 06:57:38 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 06:57:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 06:57:38 [notice] 1#1: start worker processes
+2019/10/07 06:57:38 [notice] 1#1: start worker process 7
+2019/10/07 06:57:38 [notice] 1#1: start worker process 8
+2019/10/07 06:58:10 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 06:58:10 [notice] 7#7: exiting
+2019/10/07 06:58:10 [notice] 8#8: exiting
+2019/10/07 06:58:10 [notice] 8#8: exit
+2019/10/07 06:58:10 [notice] 7#7: exit
+2019/10/07 06:58:11 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 06:58:11 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/07 06:58:11 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 06:58:11 [notice] 1#1: worker process 8 exited with code 0
+2019/10/07 06:58:11 [notice] 1#1: exit
+2019/10/07 07:00:30 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:00:30 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:00:30 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:00:30 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:00:30 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:00:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:00:30 [notice] 1#1: start worker processes
+2019/10/07 07:00:30 [notice] 1#1: start worker process 6
+2019/10/07 07:00:30 [notice] 1#1: start worker process 7
+2019/10/07 07:01:17 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:01:17 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:01:17 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:01:17 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:01:17 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:01:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:01:17 [notice] 1#1: start worker processes
+2019/10/07 07:01:17 [notice] 1#1: start worker process 6
+2019/10/07 07:01:17 [notice] 1#1: start worker process 7
+2019/10/07 07:02:06 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:02:06 [notice] 7#7: exiting
+2019/10/07 07:02:06 [notice] 6#6: exiting
+2019/10/07 07:02:06 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:02:06 [notice] 7#7: exit
+2019/10/07 07:02:06 [notice] 6#6: exit
+2019/10/07 07:02:06 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:02:06 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 07:02:06 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:02:06 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:02:06 [notice] 1#1: exit
+2019/10/07 07:02:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:02:48 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:02:48 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:02:48 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:02:48 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:02:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:02:48 [notice] 1#1: start worker processes
+2019/10/07 07:02:48 [notice] 1#1: start worker process 6
+2019/10/07 07:02:48 [notice] 1#1: start worker process 7
+2019/10/07 07:04:15 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:04:15 [notice] 6#6: exiting
+2019/10/07 07:04:15 [notice] 6#6: exit
+2019/10/07 07:04:15 [notice] 7#7: exiting
+2019/10/07 07:04:15 [notice] 7#7: exit
+2019/10/07 07:04:15 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:04:15 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:04:15 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:04:15 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:04:15 [notice] 1#1: exit
+2019/10/07 07:04:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:04:47 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:04:47 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:04:47 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:04:47 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:04:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:04:47 [notice] 1#1: start worker processes
+2019/10/07 07:04:47 [notice] 1#1: start worker process 6
+2019/10/07 07:04:47 [notice] 1#1: start worker process 7
+2019/10/07 07:05:57 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:05:57 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:05:57 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:05:57 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:05:57 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:05:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:05:57 [notice] 1#1: start worker processes
+2019/10/07 07:05:57 [notice] 1#1: start worker process 6
+2019/10/07 07:05:57 [notice] 1#1: start worker process 7
+2019/10/07 07:06:49 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:06:49 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:06:49 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:06:49 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:06:49 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:06:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:06:49 [notice] 1#1: start worker processes
+2019/10/07 07:06:49 [notice] 1#1: start worker process 6
+2019/10/07 07:06:49 [notice] 1#1: start worker process 7
+2019/10/07 07:07:52 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:07:52 [notice] 6#6: exiting
+2019/10/07 07:07:52 [notice] 7#7: exiting
+2019/10/07 07:07:52 [notice] 6#6: exit
+2019/10/07 07:07:52 [notice] 7#7: exit
+2019/10/07 07:07:52 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:07:52 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 07:07:52 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:07:52 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:07:52 [notice] 1#1: exit
+2019/10/07 07:08:59 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:08:59 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:08:59 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:08:59 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:08:59 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:08:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:08:59 [notice] 1#1: start worker processes
+2019/10/07 07:08:59 [notice] 1#1: start worker process 6
+2019/10/07 07:08:59 [notice] 1#1: start worker process 7
+2019/10/07 07:10:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:10:06 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:10:06 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:10:06 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:10:06 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:10:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:10:06 [notice] 1#1: start worker processes
+2019/10/07 07:10:06 [notice] 1#1: start worker process 6
+2019/10/07 07:10:06 [notice] 1#1: start worker process 7
+2019/10/07 07:11:10 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:11:10 [notice] 7#7: exiting
+2019/10/07 07:11:10 [notice] 6#6: exiting
+2019/10/07 07:11:10 [notice] 6#6: exit
+2019/10/07 07:11:10 [notice] 7#7: exit
+2019/10/07 07:11:10 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:11:10 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 07:11:10 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:11:10 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:11:10 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:11:10 [notice] 1#1: exit
+2019/10/07 07:11:12 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:11:12 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:11:12 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:11:12 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:11:12 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:11:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:11:12 [notice] 1#1: start worker processes
+2019/10/07 07:11:12 [notice] 1#1: start worker process 6
+2019/10/07 07:11:12 [notice] 1#1: start worker process 7
+2019/10/07 07:12:06 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:12:06 [notice] 6#6: exiting
+2019/10/07 07:12:06 [notice] 6#6: exit
+2019/10/07 07:12:06 [notice] 7#7: exiting
+2019/10/07 07:12:06 [notice] 7#7: exit
+2019/10/07 07:12:06 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:12:06 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:12:06 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:12:06 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/07 07:12:06 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 07:12:06 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:12:06 [notice] 1#1: exit
+2019/10/07 07:13:33 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:13:33 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:13:33 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:13:33 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:13:33 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:13:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:13:33 [notice] 1#1: start worker processes
+2019/10/07 07:13:33 [notice] 1#1: start worker process 6
+2019/10/07 07:13:33 [notice] 1#1: start worker process 7
+2019/10/07 07:14:50 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:14:50 [notice] 7#7: exiting
+2019/10/07 07:14:50 [notice] 6#6: exiting
+2019/10/07 07:14:50 [notice] 6#6: exit
+2019/10/07 07:14:50 [notice] 7#7: exit
+2019/10/07 07:14:50 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:14:50 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 07:14:50 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:14:50 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/07 07:14:50 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:14:50 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:14:50 [notice] 1#1: exit
+2019/10/07 07:17:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:17:16 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:17:16 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:17:16 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:17:16 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:17:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:17:16 [notice] 1#1: start worker processes
+2019/10/07 07:17:16 [notice] 1#1: start worker process 7
+2019/10/07 07:17:16 [notice] 1#1: start worker process 8
+2019/10/07 07:19:40 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:19:40 [notice] 7#7: exiting
+2019/10/07 07:19:40 [notice] 8#8: exiting
+2019/10/07 07:19:40 [notice] 7#7: exit
+2019/10/07 07:19:40 [notice] 8#8: exit
+2019/10/07 07:19:40 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:19:40 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:19:40 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:19:40 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:19:40 [notice] 1#1: worker process 8 exited with code 0
+2019/10/07 07:19:40 [notice] 1#1: exit
+2019/10/07 07:28:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:28:37 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:28:37 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:28:37 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:28:37 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:28:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:28:37 [notice] 1#1: start worker processes
+2019/10/07 07:28:37 [notice] 1#1: start worker process 6
+2019/10/07 07:28:37 [notice] 1#1: start worker process 7
+2019/10/07 07:30:37 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:30:37 [notice] 6#6: exiting
+2019/10/07 07:30:37 [notice] 7#7: exiting
+2019/10/07 07:30:37 [notice] 6#6: exit
+2019/10/07 07:30:37 [notice] 7#7: exit
+2019/10/07 07:30:37 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:30:37 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 07:30:37 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:30:37 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:30:37 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:30:37 [notice] 1#1: exit
+2019/10/07 07:30:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:30:41 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:30:41 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:30:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:30:41 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:30:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:30:41 [notice] 1#1: start worker processes
+2019/10/07 07:30:41 [notice] 1#1: start worker process 6
+2019/10/07 07:30:41 [notice] 1#1: start worker process 7
+2019/10/07 07:34:28 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:34:28 [notice] 7#7: exiting
+2019/10/07 07:34:28 [notice] 6#6: exiting
+2019/10/07 07:34:28 [notice] 7#7: exit
+2019/10/07 07:34:28 [notice] 6#6: exit
+2019/10/07 07:34:28 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:34:29 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 07:34:29 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:34:29 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/07 07:34:29 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:34:29 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:34:29 [notice] 1#1: exit
+2019/10/07 07:34:32 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:34:32 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:34:32 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:34:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:34:32 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:34:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:34:32 [notice] 1#1: start worker processes
+2019/10/07 07:34:32 [notice] 1#1: start worker process 6
+2019/10/07 07:34:32 [notice] 1#1: start worker process 7
+2019/10/07 07:37:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:37:41 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:37:41 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:37:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:37:41 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:37:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:37:41 [notice] 1#1: start worker processes
+2019/10/07 07:37:41 [notice] 1#1: start worker process 6
+2019/10/07 07:37:41 [notice] 1#1: start worker process 7
+2019/10/07 07:47:20 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:47:20 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:47:20 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:47:20 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:47:20 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:47:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:47:20 [notice] 1#1: start worker processes
+2019/10/07 07:47:20 [notice] 1#1: start worker process 7
+2019/10/07 07:47:20 [notice] 1#1: start worker process 8
+2019/10/07 07:48:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:48:19 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:48:19 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:48:19 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:48:19 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:48:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:48:19 [notice] 1#1: start worker processes
+2019/10/07 07:48:19 [notice] 1#1: start worker process 6
+2019/10/07 07:48:19 [notice] 1#1: start worker process 7
+2019/10/07 07:50:29 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:50:29 [notice] 6#6: exiting
+2019/10/07 07:50:29 [notice] 7#7: exiting
+2019/10/07 07:50:29 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:50:29 [notice] 6#6: exit
+2019/10/07 07:50:29 [notice] 7#7: exit
+2019/10/07 07:50:29 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:50:29 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:50:29 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 07:50:29 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:50:29 [notice] 1#1: exit
+2019/10/07 07:51:03 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:51:03 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:51:03 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:51:03 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:51:03 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:51:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:51:03 [notice] 1#1: start worker processes
+2019/10/07 07:51:03 [notice] 1#1: start worker process 7
+2019/10/07 07:51:03 [notice] 1#1: start worker process 8
+2019/10/07 07:52:41 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 07:52:41 [notice] 8#8: exiting
+2019/10/07 07:52:41 [notice] 7#7: exiting
+2019/10/07 07:52:41 [notice] 7#7: exit
+2019/10/07 07:52:41 [notice] 8#8: exit
+2019/10/07 07:52:41 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 07:52:41 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/07 07:52:41 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 07:52:41 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/07 07:52:41 [notice] 1#1: worker process 8 exited with code 0
+2019/10/07 07:52:41 [notice] 1#1: exit
+2019/10/07 07:57:38 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 07:57:38 [notice] 1#1: using the "epoll" event method
+2019/10/07 07:57:38 [notice] 1#1: nginx/1.17.4
+2019/10/07 07:57:38 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 07:57:38 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 07:57:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 07:57:38 [notice] 1#1: start worker processes
+2019/10/07 07:57:38 [notice] 1#1: start worker process 6
+2019/10/07 07:57:38 [notice] 1#1: start worker process 7
+2019/10/07 08:00:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 08:00:41 [notice] 1#1: using the "epoll" event method
+2019/10/07 08:00:41 [notice] 1#1: nginx/1.17.4
+2019/10/07 08:00:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 08:00:41 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 08:00:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 08:00:41 [notice] 1#1: start worker processes
+2019/10/07 08:00:41 [notice] 1#1: start worker process 6
+2019/10/07 08:00:41 [notice] 1#1: start worker process 7
+2019/10/07 08:00:48 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/07 08:00:48 [notice] 6#6: exiting
+2019/10/07 08:00:48 [notice] 7#7: exiting
+2019/10/07 08:00:48 [notice] 7#7: exit
+2019/10/07 08:00:48 [notice] 6#6: exit
+2019/10/07 08:00:48 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/07 08:00:48 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/07 08:00:48 [notice] 1#1: worker process 6 exited with code 0
+2019/10/07 08:00:48 [notice] 1#1: worker process 7 exited with code 0
+2019/10/07 08:00:48 [notice] 1#1: exit
+2019/10/07 14:17:28 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/07 14:17:28 [notice] 1#1: using the "epoll" event method
+2019/10/07 14:17:28 [notice] 1#1: nginx/1.17.4
+2019/10/07 14:17:28 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/07 14:17:28 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/07 14:17:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/07 14:17:28 [notice] 1#1: start worker processes
+2019/10/07 14:17:28 [notice] 1#1: start worker process 6
+2019/10/07 14:17:28 [notice] 1#1: start worker process 7
+2019/10/08 01:42:44 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 01:42:44 [notice] 7#7: exiting
+2019/10/08 01:42:44 [notice] 6#6: exiting
+2019/10/08 01:42:44 [notice] 6#6: exit
+2019/10/08 01:42:44 [notice] 7#7: exit
+2019/10/08 01:42:44 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:42:44 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:42:44 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 01:42:44 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 01:42:44 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 01:42:44 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 01:42:44 [notice] 1#1: exit
+2019/10/08 01:42:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:42:48 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:42:48 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:42:48 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:42:48 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:42:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:42:48 [notice] 1#1: start worker processes
+2019/10/08 01:42:48 [notice] 1#1: start worker process 6
+2019/10/08 01:42:48 [notice] 1#1: start worker process 7
+2019/10/08 01:48:13 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 01:48:13 [notice] 6#6: exiting
+2019/10/08 01:48:13 [notice] 7#7: exiting
+2019/10/08 01:48:13 [notice] 6#6: exit
+2019/10/08 01:48:13 [notice] 7#7: exit
+2019/10/08 01:48:13 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:48:13 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 01:48:13 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 01:48:13 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 01:48:13 [notice] 1#1: exit
+2019/10/08 01:48:17 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:48:17 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:48:17 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:48:17 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:48:17 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:48:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:48:17 [notice] 1#1: start worker processes
+2019/10/08 01:48:17 [notice] 1#1: start worker process 6
+2019/10/08 01:48:17 [notice] 1#1: start worker process 7
+2019/10/08 01:49:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:49:31 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:49:31 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:49:31 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:49:31 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:49:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:49:31 [notice] 1#1: start worker processes
+2019/10/08 01:49:31 [notice] 1#1: start worker process 6
+2019/10/08 01:49:31 [notice] 1#1: start worker process 7
+2019/10/08 01:49:54 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/08 01:49:55 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:8081/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2019/10/08 01:50:34 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 01:50:34 [notice] 6#6: exiting
+2019/10/08 01:50:34 [notice] 6#6: exit
+2019/10/08 01:50:34 [notice] 7#7: exiting
+2019/10/08 01:50:34 [notice] 7#7: exit
+2019/10/08 01:50:34 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:50:34 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 01:50:34 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 01:50:34 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/08 01:50:34 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 01:50:34 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 01:50:34 [notice] 1#1: exit
+2019/10/08 01:51:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:51:24 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:51:24 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:51:24 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:51:24 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:51:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:51:24 [notice] 1#1: start worker processes
+2019/10/08 01:51:24 [notice] 1#1: start worker process 6
+2019/10/08 01:51:24 [notice] 1#1: start worker process 7
+2019/10/08 01:52:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 01:52:12 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 01:52:12 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 01:52:12 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 01:52:13 [error] 6#6: *1 no live upstreams while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2019/10/08 01:52:17 [error] 6#6: *1 no live upstreams while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
+2019/10/08 01:52:17 [error] 6#6: *1 no live upstreams while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2019/10/08 01:53:18 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 01:53:18 [notice] 6#6: exiting
+2019/10/08 01:53:18 [notice] 7#7: exiting
+2019/10/08 01:53:18 [notice] 6#6: exit
+2019/10/08 01:53:18 [notice] 7#7: exit
+2019/10/08 01:53:18 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:53:18 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 01:53:18 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 01:53:18 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 01:53:18 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 01:53:18 [notice] 1#1: exit
+2019/10/08 01:54:42 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:54:42 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:54:42 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:54:42 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:54:42 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:54:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:54:42 [notice] 1#1: start worker processes
+2019/10/08 01:54:42 [notice] 1#1: start worker process 6
+2019/10/08 01:54:42 [notice] 1#1: start worker process 7
+2019/10/08 01:55:06 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 01:55:06 [notice] 6#6: exiting
+2019/10/08 01:55:06 [notice] 6#6: exit
+2019/10/08 01:55:06 [notice] 7#7: exiting
+2019/10/08 01:55:06 [notice] 7#7: exit
+2019/10/08 01:55:06 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:55:06 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 01:55:06 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 01:55:06 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 01:55:06 [notice] 1#1: exit
+2019/10/08 01:55:34 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:55:34 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:55:34 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:55:34 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:55:34 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:55:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:55:34 [notice] 1#1: start worker processes
+2019/10/08 01:55:34 [notice] 1#1: start worker process 6
+2019/10/08 01:55:34 [notice] 1#1: start worker process 7
+2019/10/08 01:55:53 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 01:55:53 [notice] 6#6: exiting
+2019/10/08 01:55:53 [notice] 7#7: exiting
+2019/10/08 01:55:53 [notice] 7#7: exit
+2019/10/08 01:55:53 [notice] 6#6: exit
+2019/10/08 01:55:53 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:55:53 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 01:55:53 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 01:55:53 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 01:55:53 [notice] 1#1: exit
+2019/10/08 01:56:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:56:19 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:56:19 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:56:19 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:56:19 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:56:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:56:19 [notice] 1#1: start worker processes
+2019/10/08 01:56:19 [notice] 1#1: start worker process 6
+2019/10/08 01:56:19 [notice] 1#1: start worker process 7
+2019/10/08 01:56:55 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 01:56:55 [notice] 1#1: using the "epoll" event method
+2019/10/08 01:56:55 [notice] 1#1: nginx/1.17.4
+2019/10/08 01:56:55 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 01:56:55 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 01:56:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 01:56:55 [notice] 1#1: start worker processes
+2019/10/08 01:56:55 [notice] 1#1: start worker process 7
+2019/10/08 01:56:55 [notice] 1#1: start worker process 8
+2019/10/08 01:57:12 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 01:57:12 [notice] 7#7: exiting
+2019/10/08 01:57:12 [notice] 7#7: exit
+2019/10/08 01:57:12 [notice] 8#8: exiting
+2019/10/08 01:57:12 [notice] 8#8: exit
+2019/10/08 01:57:12 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 01:57:12 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 01:57:12 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 01:57:12 [notice] 1#1: worker process 8 exited with code 0
+2019/10/08 01:57:12 [notice] 1#1: exit
+2019/10/08 02:00:25 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 02:00:25 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:00:25 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:00:25 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:00:25 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:00:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:00:25 [notice] 1#1: start worker processes
+2019/10/08 02:00:25 [notice] 1#1: start worker process 6
+2019/10/08 02:00:25 [notice] 1#1: start worker process 7
+2019/10/08 02:00:47 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/08 02:00:48 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:8081/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2019/10/08 02:01:34 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:01:34 [notice] 6#6: exiting
+2019/10/08 02:01:34 [notice] 7#7: exiting
+2019/10/08 02:01:34 [notice] 7#7: exit
+2019/10/08 02:01:34 [notice] 6#6: exit
+2019/10/08 02:01:34 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:01:34 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 02:01:34 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 02:01:34 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:01:34 [notice] 1#1: exit
+2019/10/08 02:02:24 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:02:24 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:02:24 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:02:24 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:02:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:02:24 [notice] 1#1: start worker processes
+2019/10/08 02:02:24 [notice] 1#1: start worker process 7
+2019/10/08 02:02:24 [notice] 1#1: start worker process 8
+2019/10/08 02:02:28 [error] 7#7: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/10/08 02:02:48 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:02:48 [notice] 8#8: exiting
+2019/10/08 02:02:48 [notice] 8#8: exit
+2019/10/08 02:02:48 [notice] 7#7: exiting
+2019/10/08 02:02:48 [notice] 7#7: exit
+2019/10/08 02:02:48 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:02:48 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/08 02:02:48 [notice] 1#1: worker process 8 exited with code 0
+2019/10/08 02:02:48 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 02:02:48 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:02:48 [notice] 1#1: exit
+2019/10/08 02:03:34 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:03:39 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:03:44 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:03:48 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:03:51 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:03:54 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:03:59 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:04:07 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:04:22 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:04:52 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:05:45 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:06:36 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 02:06:36 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:06:36 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:06:36 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:06:36 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:06:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:06:36 [notice] 1#1: start worker processes
+2019/10/08 02:06:36 [notice] 1#1: start worker process 6
+2019/10/08 02:06:36 [notice] 1#1: start worker process 7
+2019/10/08 02:06:44 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:06:44 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:06:44 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:06:44 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:06:46 [error] 6#6: *1 no live upstreams while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "localhost"
+2019/10/08 02:06:54 [error] 6#6: *4 no live upstreams while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://localhost/", host: "127.0.0.1"
+2019/10/08 02:06:55 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/08 02:06:55 [warn] 6#6: *4 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/08 02:06:55 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/08 02:06:55 [warn] 6#6: *4 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:8081/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/08 02:07:48 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:07:48 [notice] 7#7: exiting
+2019/10/08 02:07:48 [notice] 7#7: exit
+2019/10/08 02:07:48 [notice] 6#6: exiting
+2019/10/08 02:07:48 [notice] 6#6: exit
+2019/10/08 02:07:48 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:07:48 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 02:07:48 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 02:07:48 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:07:48 [notice] 1#1: exit
+2019/10/08 02:08:32 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:08:32 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:08:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:08:32 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:08:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:08:32 [notice] 1#1: start worker processes
+2019/10/08 02:08:32 [notice] 1#1: start worker process 7
+2019/10/08 02:08:32 [notice] 1#1: start worker process 8
+2019/10/08 02:08:36 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "127.0.0.1"
+2019/10/08 02:08:36 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:8081/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/08 02:08:38 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: 127.0.0.1, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "127.0.0.1"
+2019/10/08 02:08:38 [error] 7#7: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: 127.0.0.1, request: "GET /favicon.ico HTTP/1.1", upstream: "http://0.0.0.0:8081/favicon.ico", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2019/10/08 02:11:54 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:11:54 [notice] 8#8: exiting
+2019/10/08 02:11:54 [notice] 7#7: exiting
+2019/10/08 02:11:54 [notice] 8#8: exit
+2019/10/08 02:11:54 [notice] 7#7: exit
+2019/10/08 02:11:54 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:11:54 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2019/10/08 02:11:54 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:11:54 [notice] 1#1: worker process 8 exited with code 0
+2019/10/08 02:11:54 [notice] 1#1: exit
+2019/10/08 02:12:23 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 02:12:23 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:12:23 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:12:23 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:12:23 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:12:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:12:23 [notice] 1#1: start worker processes
+2019/10/08 02:12:23 [notice] 1#1: start worker process 6
+2019/10/08 02:12:23 [notice] 1#1: start worker process 7
+2019/10/08 02:12:41 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:12:41 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:12:41 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:12:41 [warn] 6#6: *1 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:18:49 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:18:49 [warn] 6#6: *4 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:18:49 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:18:49 [warn] 6#6: *4 upstream server temporarily disabled while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8081/", host: "localhost"
+2019/10/08 02:19:39 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:19:39 [notice] 7#7: exiting
+2019/10/08 02:19:39 [notice] 7#7: exit
+2019/10/08 02:19:39 [notice] 6#6: exiting
+2019/10/08 02:19:39 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:19:39 [notice] 6#6: exit
+2019/10/08 02:19:39 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 02:19:39 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 02:19:39 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:19:39 [notice] 1#1: exit
+2019/10/08 02:20:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 02:20:27 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:20:27 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:20:27 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:20:27 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:20:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:20:27 [notice] 1#1: start worker processes
+2019/10/08 02:20:27 [notice] 1#1: start worker process 6
+2019/10/08 02:20:27 [notice] 1#1: start worker process 7
+2019/10/08 02:20:54 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/08 02:21:21 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:21:21 [notice] 7#7: exiting
+2019/10/08 02:21:21 [notice] 7#7: exit
+2019/10/08 02:21:21 [notice] 6#6: exiting
+2019/10/08 02:21:21 [notice] 6#6: exit
+2019/10/08 02:21:21 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:21:21 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 02:21:21 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:21:21 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 02:21:21 [notice] 1#1: exit
+2019/10/08 02:22:46 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 02:22:46 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:22:46 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:22:46 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:22:46 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:22:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:22:46 [notice] 1#1: start worker processes
+2019/10/08 02:22:46 [notice] 1#1: start worker process 6
+2019/10/08 02:22:46 [notice] 1#1: start worker process 7
+2019/10/08 02:22:55 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/08 02:23:46 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://0.0.0.0:8081/", host: "localhost"
+2019/10/08 02:28:43 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:28:43 [notice] 7#7: exiting
+2019/10/08 02:28:43 [notice] 6#6: exiting
+2019/10/08 02:28:43 [notice] 7#7: exit
+2019/10/08 02:28:43 [notice] 6#6: exit
+2019/10/08 02:28:43 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:28:43 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 02:28:43 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:28:43 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/08 02:28:43 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 02:28:43 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 02:28:43 [notice] 1#1: exit
+2019/10/08 02:29:18 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:29:21 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:29:25 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:29:29 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:29:32 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:29:37 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:29:42 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:29:51 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:30:06 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:30:34 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:31:27 [emerg] 1#1: host not found in upstream "expresscart" in /etc/nginx/nginx.conf:29
+2019/10/08 02:32:21 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2019/10/08 02:32:21 [notice] 1#1: using the "epoll" event method
+2019/10/08 02:32:21 [notice] 1#1: nginx/1.17.4
+2019/10/08 02:32:21 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2019/10/08 02:32:21 [notice] 1#1: OS: Linux 4.9.184-linuxkit
+2019/10/08 02:32:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2019/10/08 02:32:21 [notice] 1#1: start worker processes
+2019/10/08 02:32:21 [notice] 1#1: start worker process 6
+2019/10/08 02:32:21 [notice] 1#1: start worker process 7
+2019/10/08 02:33:22 [info] 6#6: *4 epoll_wait() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.6:8081/", host: "localhost", referrer: "http://localhost/"
+2019/10/08 02:33:22 [info] 6#6: *5 client 172.18.0.1 closed keepalive connection
+2019/10/08 02:33:22 [info] 6#6: *11 client 172.18.0.1 closed keepalive connection
+2019/10/08 02:33:22 [info] 6#6: *3 client 172.18.0.1 closed keepalive connection
+2019/10/08 02:33:22 [info] 6#6: *6 client 172.18.0.1 closed keepalive connection
+2019/10/08 02:33:22 [info] 6#6: *1 client 172.18.0.1 closed keepalive connection
+2019/10/08 02:33:31 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2019/10/08 02:33:31 [notice] 6#6: exiting
+2019/10/08 02:33:31 [notice] 7#7: exiting
+2019/10/08 02:33:31 [notice] 6#6: exit
+2019/10/08 02:33:31 [notice] 7#7: exit
+2019/10/08 02:33:31 [notice] 1#1: signal 14 (SIGALRM) received
+2019/10/08 02:33:31 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2019/10/08 02:33:31 [notice] 1#1: worker process 6 exited with code 0
+2019/10/08 02:33:31 [notice] 1#1: signal 29 (SIGIO) received
+2019/10/08 02:33:31 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2019/10/08 02:33:31 [notice] 1#1: worker process 7 exited with code 0
+2019/10/08 02:33:31 [notice] 1#1: exit

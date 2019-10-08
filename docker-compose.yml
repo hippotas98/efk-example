@@ -1,23 +1,34 @@
 version: "3.3"
-services:
-  e-commerce:
-    image: 'hippotas/e-commerce-1'
-    ports:
-     - 8081:8081
+services:  
+  expresscart:
+    image: "node:8"
+    build: .
+    container_name: "expresscart"
     environment:
-      - SERVICE_PORTS=8081
-    deploy:
-      replicas: 1
-      update_config:
-        parallelism: 1
-        delay: 10s
-      restart_policy:
-        condition: on-failure
-        max_attempts: 3
-        window: 120s
+      SERVICE_PORTS: "8081"
+      NODE_ENV: development
+      NODE_PATH: /
+    command: >
+      sh -c "npm run testdata && npm start"
+    ports:
+      - "8081:8081"
     networks:
       - logging-net
+    links:
+      - mongo
+    depends_on:
+      - mongo
 
+  mongo:
+    image: mongo:3.4.10
+    volumes:
+      - expresscart-mongo-data:/data/db
+    ports:
+      - 27017:27017
+    command: mongod --smallfiles --logpath=/dev/null
+    networks:
+      - logging-net
+      
   elasticsearch:
     image: 'docker.elastic.co/elasticsearch/elasticsearch:6.5.1'
     restart: always
@@ -31,7 +42,7 @@ services:
     environment:
       - xpack.security.enabled=false
     depends_on:
-      - e-commerce
+      - expresscart
 
   fluentd:
     image: melvindave/fluentd-elastic:1.0
@@ -75,9 +86,11 @@ services:
         tag: httpd.access
     depends_on:  
       - fluentd
+      - expresscart
 
 networks:
   logging-net:
 
 volumes:
   elasticsearch-vol: 
+  expresscart-mongo-data:
