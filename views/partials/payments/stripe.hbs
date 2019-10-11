@@ -1,6 +1,7 @@
 <div class="col-xs-12 col s12 text-center">
     <form method="POST" id="payment-form">
         <button
+            onclick="paymentFake()"
             type="submit"
             id="stripeButton"
             value="Process payment"
@@ -16,6 +17,11 @@
             data-currency="{{paymentConfig.stripeCurrency}}">
             <i class="fa fa-cc-stripe fa-lg" aria-hidden="true"></i> Process payment <i class="fa fa-cc-stripe fa-lg" aria-hidden="true"></i>
         </button>
-        <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+        <script>
+          async function paymentFake() {
+            await fetch('http://localhost/paymentFake');
+            window.location.replace("http://localhost");
+          }
+        </script>
     </form>
 </div>

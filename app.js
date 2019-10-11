@@ -33,7 +33,7 @@ if(baseConfig === false){
 // Validate the payment gateway config
 switch(config.paymentGateway)
 {
-    case 'paypal':
+    case'paypal':
         const paypalConfig = ajv.validate(require('./config/paypalSchema'), require('./config/paypal.json'));
         if(paypalConfig === false){
             console.log(colors.red(`PayPal config is incorrect: ${ajv.errorsText()}`));
@@ -41,7 +41,7 @@ switch(config.paymentGateway)
         }
         break;
 
-    case 'stripe':
+    case'stripe':
         const stripeConfig = ajv.validate(require('./config/stripeSchema'), require('./config/stripe.json'));
         if(stripeConfig === false){
             console.log(colors.red(`Stripe config is incorrect: ${ajv.errorsText()}`));
@@ -49,7 +49,7 @@ switch(config.paymentGateway)
         }
         break;
 
-    case 'authorizenet':
+    case'authorizenet':
         const authorizenetConfig = ajv.validate(require('./config/authorizenetSchema'), require('./config/authorizenet.json'));
         if(authorizenetConfig === false){
             console.log(colors.red(`Authorizenet config is incorrect: ${ajv.errorsText()}`));
@@ -384,6 +384,7 @@ initDb(config.databaseConnectionString, async (err, db) => {
         await app.listen(app.get('port'));
         app.emit('appStarted');
         console.log(colors.green('expressCart running on host: http://localhost:' + app.get('port')));
+        console.log('test')
     }catch(ex){
         console.error(colors.red('Error starting expressCart app:' + err));
         process.exit(2);

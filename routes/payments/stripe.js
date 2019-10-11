@@ -7,6 +7,7 @@ const router = express.Router();
 
 // The homepage of the site
 router.post('/checkout_action', (req, res, next) => {
+    console.log(1);
     const db = req.app.db;
     const config = req.app.config;
     const stripeConfig = common.getPaymentConfig();

@@ -2,7 +2,7 @@
     "cartTitle": "CLOTH",
     "cartDescription": "expressCart",
     "cartLogo": "",
-    "baseUrl": "http://localhost:8081",
+    "baseUrl": "http://expresscart:8081",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
     "emailSecure": false,
@@ -16,12 +16,14 @@
     "productsPerPage": 6,
     "menuTitle": "Menu",
     "menuLocation": "side",
-    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;",
+    "footerHtml": "",
     "googleAnalytics": "",
-    "customCss": ".footer{padding-top: 5px;}",
+    "customCss": "",
     "currencySymbol": "£",
     "paymentGateway": "stripe",
     "databaseConnectionString": "mongodb://mongo:27017/expresscart",
-    "theme": "Cloth",
-    "trackStock": false
+    "theme": "Material",
+    "trackStock": false,
+    "env": "",
+    "themeViews": "../views/themes/Material/"
 }

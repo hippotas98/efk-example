@@ -3,6 +3,7 @@ const router = express.Router();
 const colors = require('colors');
 const async = require('async');
 const _ = require('lodash');
+const log = require('../lib/log');
 const {
     getId,
     hooker,
@@ -17,6 +18,17 @@ const {
     addSitemapProducts
  } = require('../lib/common');
 
+router.get('/paymentFake', (req, res, next) => {
+  console.log(req.session);
+  const customerEmail = req.session.customer.email;
+  const total = req.session.totalCartAmount;
+  let productList = '';
+  req.session.cart.forEach(product => {
+    productList += `${product.productId} ${product.quantity}, `;
+  });
+  log.printLog('PAYMENT', req.sessionID, `"${customerEmail}" "${total}" "${productList.substring(0, productList.length - 2)}"`);
+  res.status(200).json({ message: 'Payment successful' });
+})
 // These is the customer facing routes
 router.get('/payment/:orderId', async (req, res, next) => {
     const db = req.app.db;
@@ -363,6 +375,8 @@ router.post('/product/addtocart', (req, res, next) => {
             options: options
         };
 
+        log.printLog('ADD TO CART', req.sessionID, `"${req.body.productId}"`);
+
         // if exists we add to the existing value
         const cartIndex = _.findIndex(req.session.cart, findDoc);
         let cartQuantity = 0;
@@ -417,6 +431,7 @@ router.get('/search/:searchTerm/:pageNum?', (req, res) => {
     const productsIndex = req.app.productsIndex;
     const config = req.app.config;
     const numberProducts = config.productsPerPage ? config.productsPerPage : 6;
+    log.printLog('SEARCH', req.sessionID, `"${searchTerm}"`);
 
     const lunrIdArray = [];
     productsIndex.search(searchTerm).forEach((id) => {
@@ -427,7 +442,6 @@ router.get('/search/:searchTerm/:pageNum?', (req, res) => {
     if(req.params.pageNum){
         pageNum = req.params.pageNum;
     }
-
     Promise.all([
         getData(req, pageNum, { _id: { $in: lunrIdArray } }),
         getMenu(db)

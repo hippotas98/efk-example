@@ -5,6 +5,7 @@ const randtoken = require('rand-token');
 const bcrypt = require('bcryptjs');
 const common = require('../lib/common');
 const { restrict } = require('../lib/auth');
+const log = require('../lib/log');
 
 // insert a customer
 router.post('/customer/create', (req, res) => {
@@ -50,6 +51,7 @@ router.post('/customer/create', (req, res) => {
             }
 
             // Customer creation successful
+            log.printLog('REGISTER', req.sessionID, `"${doc.email}"`);
             req.session.customer = newCustomer.ops[0];
             res.status(200).json({
                 message: 'Successfully logged in',
@@ -177,6 +179,7 @@ router.post('/customer/login_action', async (req, res) => {
             }
 
             // Customer login successful
+            log.printLog('LOGIN', req.sessionID, `"${customer.email}"`);
             req.session.customer = customer;
             return res.status(200).json({
                 message: 'Successfully logged in',
