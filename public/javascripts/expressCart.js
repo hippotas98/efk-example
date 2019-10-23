@@ -284,24 +284,24 @@ $(document).ready(function (){
         e.preventDefault();
         if($('#shipping-form').validator('validate').has('.has-error').length === 0){
             // if no form validation errors
-            var handler = window.StripeCheckout.configure({
-                key: $('#stripeButton').data('key'),
-                image: $('#stripeButton').data('image'),
-                locale: 'auto',
-                token: function(token){
-                    $('#shipping-form').append('<input type="hidden" name="stripeToken" value="' + token.id + '" />');
-                    $('#shipping-form').submit();
-                }
-            });
+            // var handler = window.StripeCheckout.configure({
+            //     key: $('#stripeButton').data('key'),
+            //     image: $('#stripeButton').data('image'),
+            //     locale: 'auto',
+            //     token: function(token){
+            //         $('#shipping-form').append('<input type="hidden" name="stripeToken" value="' + token.id + '" />');
+            //         $('#shipping-form').submit();
+            //     }
+            // });
 
-            // open the stripe payment form
-            handler.open({
-                name: $('#stripeButton').data('name'),
-                description: $('#stripeButton').data('description'),
-                zipCode: $('#stripeButton').data('zipCode'),
-                amount: $('#stripeButton').data('amount'),
-                currency: $('#stripeButton').data('currency')
-            });
+            // // open the stripe payment form
+            // handler.open({
+            //     name: $('#stripeButton').data('name'),
+            //     description: $('#stripeButton').data('description'),
+            //     zipCode: $('#stripeButton').data('zipCode'),
+            //     amount: $('#stripeButton').data('amount'),
+            //     currency: $('#stripeButton').data('currency')
+            // });
         }
     });
 

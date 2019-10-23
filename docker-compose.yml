@@ -35,7 +35,7 @@ services:
     image: 'docker.elastic.co/elasticsearch/elasticsearch:6.5.1'
     restart: always
     ports:
-      - "9200:9200"
+      - "9200:9300"
     volumes:
       - elasticsearch-vol:/usr/share/elasticsearch/data 
     networks:
@@ -46,8 +46,9 @@ services:
       - 9200
 
   fluentd:
-    image: melvindave/fluentd-elastic:1.0
+    image: hippotas98/fluentd-custom:latest
     restart: always
+    # command: ['/var/expressCart/wait-for-it.sh', '0.0.0.0:9200', '--', 'fluentd', '-c', './fluentd/etc/fluent.conf']
     ports:
       - "24224:24224"
     networks:
@@ -69,9 +70,7 @@ services:
     networks:
       - logging-net
     depends_on:
-      - fluentd  
-    links:
-      - fluentd  
+      - fluentd   
   
   nginx:
     image: nginx

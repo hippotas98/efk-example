@@ -19,14 +19,15 @@ const {
  } = require('../lib/common');
 
 router.get('/paymentFake', (req, res, next) => {
-  console.log(req.session);
   const customerEmail = req.session.customer.email;
+  const address = req.session.customer.address1;
   const total = req.session.totalCartAmount;
   let productList = '';
   req.session.cart.forEach(product => {
     productList += `${product.productId} ${product.quantity}, `;
   });
-  log.printLog('PAYMENT', req.sessionID, `"${customerEmail}" "${total}" "${productList.substring(0, productList.length - 2)}"`);
+  log.printLog('PAYMENT', req.sessionID, `"${customerEmail}" "${address}" "${total}" "${productList.substring(0, productList.length - 2)}"`);
+  req.session.destroy();
   res.status(200).json({ message: 'Payment successful' });
 })
 // These is the customer facing routes
@@ -160,7 +161,7 @@ router.get('/product/:id', (req, res) => {
             res.render('error', { title: 'Not found', message: 'Product not found', helpers: req.handlebars.helpers, config });
         }else{
             const productOptions = result.productOptions;
-
+            log.printLog('PRODUCT', req.sessionID, `"${result._id}" "${result.productTags}"`);
             // If JSON query param return json instead
             if(req.query.json === 'true'){
                 res.status(200).json(result);
@@ -502,7 +503,7 @@ router.get('/category/:cat/:pageNum?', (req, res) => {
     ])
     .then(([results, menu]) => {
         const sortedMenu = sortMenu(menu);
-
+        log.printLog('CATEGORY', req.sessionID, `"${searchTerm}"`);
         // If JSON query param return json instead
         if(req.query.json === 'true'){
             res.status(200).json(results.data);
