@@ -64,6 +64,11 @@ Body
   }
 }
 ```
+#### Tạo index thủ công
+```javascript
+PUT http://localhost:9200/<index_name>
+```
+
 #### Set mapping type cho từng index
 sử dụng khi template không set dc. Có thể làm hằng ngày trc khi chạy để elasticsearch map type
 ```javascript
@@ -84,7 +89,7 @@ Body
 ```
 #### Dump data
 Làm theo https://github.com/taskrabbit/elasticsearch-dump
-# RUN
+##### RUN
 ```javascript 
 {
 elasticdump \
