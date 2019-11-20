@@ -1,5 +1,6 @@
 #### RUN
 ```javascript
+docker-compose up --build
 docker-compose up
 ```
 #### Check number of nodes
@@ -35,4 +36,58 @@ Body
     "number_of_replicas": 0
   }
 }
+```
+
+#### Cách sửa không truy cập được localhost:9200
+Sửa port của elasticsearch trong docker-compose thành "9200:9200"
+
+#### Set mapping type cho template
+Lưu ý, nếu có index (indices) của elasticsearch thì phải xoá đi. Nếu không thì put ko dc
+```javascript
+PUT http://localhost:9200/_template/template_1/
+```
+Body
+```javascript
+{
+  "index_patterns": ["fluentd-*"], 
+  "mappings": {
+    "access_log" : {
+      "properties": {
+        "total_amount": {
+          "type": "double"
+        },
+        "product_quantity": {
+          "type": "double"
+        }
+      }
+    }
+  }
+}
+```
+#### Set mapping type cho từng index
+sử dụng khi template không set dc. Có thể làm hằng ngày trc khi chạy để elasticsearch map type
+```javascript
+PUT http://localhost:9200/<index_name>/_mapping/access_log 
+```
+Body
+```javascript 
+{
+  "properties": {
+    "total_amount": {
+          "type": "double"
+        },
+        "product_quantity": {
+          "type": "double"
+        }
+  }
+}
+```
+#### Dump data
+Làm theo https://github.com/taskrabbit/elasticsearch-dump
+# RUN
+```javascript 
+{
+elasticdump \
+  --input=http://localhost:9200/<index_name> \
+  --output=<file-name>.json \
 ```
