@@ -91,7 +91,6 @@ Body
 Làm theo https://github.com/taskrabbit/elasticsearch-dump
 ##### RUN
 ```javascript 
-{
 elasticdump \
   --input=http://localhost:9200/<index_name> \
   --output=<file-name>.json \
