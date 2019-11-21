@@ -61,6 +61,9 @@ Body
         }
       }
     }
+  },
+  "settings": {
+    "number_of_replicas": 0
   }
 }
 ```
