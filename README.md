@@ -95,9 +95,9 @@ Làm theo https://github.com/taskrabbit/elasticsearch-dump
 ##### RUN
 ```javascript 
 elasticdump \
-  --input=http://localhost:9200/<index_name> \
-  --output=<file-name>.json \
-  --limit=1000 \
+  --input http://localhost:9200/<index_name> \
+  --output <file-name>.json \
+  --limit 1000 \
 ```
 
 #### Import data
@@ -105,7 +105,7 @@ Làm theo https://github.com/taskrabbit/elasticsearch-dump
 ##### RUN
 ```javascript 
 elasticdump \
-  --input=<path-to-file-json> \
-  --output=http://localhost:9200/<index_name> \
-  --limit=1000 \
+  --input <path-to-file-json> \
+  --output http://localhost:9200/<index_name> \
+  --limit 1000 \
 ```
